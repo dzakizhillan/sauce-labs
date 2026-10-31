@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>Username is required</description><name>AUTH03_Username_kosong</name><tag>High</tag><comment></comment><testCaseGuid>3ea0adb7-fd7e-41b0-b152-a3330f9e2e2a</testCaseGuid></TestCaseEntity>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>Error: Last Name is required; tetap di formulir</description><name>CHK02_Nama_belakang_wajib</name><tag>High</tag><comment></comment><testCaseGuid>3dc1c1b0-81c4-4259-ab4e-b136e0f5d08f</testCaseGuid></TestCaseEntity>

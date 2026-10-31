@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,Independent browser sessions; standard demo user,,31-10-2026 18:03:15,31-10-2026 18:03:24,"8,441s",FAILED
+,,,,,,,
+Test Cases/AUTH01_Login_valid,,URL inventory.html dan judul Products,High,31-10-2026 18:03:16,31-10-2026 18:03:20,"3,919s",FAILED
+try,,,,31-10-2026 18:03:16,31-10-2026 18:03:19,"3,616s",FAILED
+catch (Throwable failure),,,,31-10-2026 18:03:19,31-10-2026 18:03:20,"0,140s",PASSED
+Finally,,,,31-10-2026 18:03:20,31-10-2026 18:03:20,"0,021s",PASSED
+,,,,,,,
+Test Cases/AUTH06_Logout,,Kembali ke login; URL inventory langsung ditolak,High,31-10-2026 18:03:20,31-10-2026 18:03:21,"1,054s",FAILED
+try,,,,31-10-2026 18:03:20,31-10-2026 18:03:21,"0,902s",FAILED
+catch (Throwable failure),,,,31-10-2026 18:03:21,31-10-2026 18:03:21,"0,019s",PASSED
+Finally,,,,31-10-2026 18:03:21,31-10-2026 18:03:21,"0,008s",PASSED
+,,,,,,,
+Test Cases/CAT01_Katalog_produk,,Enam produk; enam harga positif; enam tombol tambah,High,31-10-2026 18:03:21,31-10-2026 18:03:22,"1,007s",FAILED
+try,,,,31-10-2026 18:03:21,31-10-2026 18:03:22,"0,845s",FAILED
+catch (Throwable failure),,,,31-10-2026 18:03:22,31-10-2026 18:03:22,"0,020s",PASSED
+Finally,,,,31-10-2026 18:03:22,31-10-2026 18:03:22,"0,007s",PASSED
+,,,,,,,
+Test Cases/CART01_Tambah_satu_produk,,Badge 1; tombol Remove; isi cart dan harga sesuai,High,31-10-2026 18:03:22,31-10-2026 18:03:23,"1,174s",FAILED
+try,,,,31-10-2026 18:03:22,31-10-2026 18:03:23,"1,057s",FAILED
+catch (Throwable failure),,,,31-10-2026 18:03:23,31-10-2026 18:03:23,"0,012s",PASSED
+Finally,,,,31-10-2026 18:03:23,31-10-2026 18:03:23,"0,007s",PASSED
+,,,,,,,
+Test Cases/CHK05_Selesaikan_pesanan,,Konfirmasi sukses; kembali ke inventory; badge kosong,High,31-10-2026 18:03:23,31-10-2026 18:03:24,"1,052s",FAILED
+try,,,,31-10-2026 18:03:23,31-10-2026 18:03:24,"0,966s",FAILED
+catch (Throwable failure),,,,31-10-2026 18:03:24,31-10-2026 18:03:24,"0,013s",PASSED
+Finally,,,,31-10-2026 18:03:24,31-10-2026 18:03:24,"0,006s",PASSED

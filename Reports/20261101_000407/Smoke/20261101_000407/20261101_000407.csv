@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Smoke,,Independent browser sessions; standard demo user,,01-11-2026 00:04:10,01-11-2026 00:04:16,"6,365s",FAILED
+,,,,,,,
+Test Cases/AUTH01_Login_valid,,URL inventory.html dan judul Products,High,01-11-2026 00:04:10,01-11-2026 00:04:12,"2,244s",FAILED
+"TestSession.run(""AUTH01"", { -> ... })",,,,01-11-2026 00:04:10,01-11-2026 00:04:12,"2,120s",PASSED
+,,,,,,,
+Test Cases/AUTH06_Logout,,Kembali ke login; URL inventory langsung ditolak,High,01-11-2026 00:04:12,01-11-2026 00:04:13,"0,965s",FAILED
+"TestSession.run(""AUTH06"", { -> ... })",,,,01-11-2026 00:04:12,01-11-2026 00:04:13,"0,871s",PASSED
+,,,,,,,
+Test Cases/CAT01_Katalog_produk,,Enam produk; enam harga positif; enam tombol tambah,High,01-11-2026 00:04:13,01-11-2026 00:04:14,"0,967s",FAILED
+"TestSession.run(""CAT01"", { -> ... })",,,,01-11-2026 00:04:14,01-11-2026 00:04:14,"0,807s",PASSED
+,,,,,,,
+Test Cases/CART01_Tambah_satu_produk,,Badge 1; tombol Remove; isi cart dan harga sesuai,High,01-11-2026 00:04:14,01-11-2026 00:04:15,"0,993s",FAILED
+"TestSession.run(""CART01"", { -> ... })",,,,01-11-2026 00:04:14,01-11-2026 00:04:15,"0,853s",PASSED
+,,,,,,,
+Test Cases/CHK05_Selesaikan_pesanan,,Konfirmasi sukses; kembali ke inventory; badge kosong,High,01-11-2026 00:04:15,01-11-2026 00:04:16,"0,934s",FAILED
+"TestSession.run(""CHK05"", { -> ... })",,,,01-11-2026 00:04:15,01-11-2026 00:04:16,"0,832s",PASSED

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>Diarahkan ke login dengan pesan akses ditolak</description><name>AUTH07_Akses_inventory_tanpa_login</name><tag>High</tag><comment></comment><testCaseGuid>562eac81-d0a1-4772-b20a-cc19002df8a5</testCaseGuid></TestCaseEntity>

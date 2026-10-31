@@ -1,0 +1,80 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression,Chrome 156.0.8078.79,Independent browser sessions; standard demo user,,01-11-2026 00:33:31,01-11-2026 00:37:17,"3m - 45,387s",PASSED
+,,,,,,,
+Test Cases/AUTH01_Login_valid,Chrome 156.0.8078.79,URL inventory.html dan judul Products,High,01-11-2026 00:33:32,01-11-2026 00:34:07,"34,959s",PASSED
+"TestSession.run(""AUTH01"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:33:32,01-11-2026 00:34:07,"34,857s",PASSED
+,,,,,,,
+Test Cases/AUTH02_Password_salah,Chrome 156.0.8078.79,Pesan kredensial tidak cocok; tetap di login,High,01-11-2026 00:34:07,01-11-2026 00:34:09,"2,563s",PASSED
+"TestSession.run(""AUTH02"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:07,01-11-2026 00:34:09,"2,503s",PASSED
+,,,,,,,
+Test Cases/AUTH03_Username_kosong,Chrome 156.0.8078.79,Username is required,High,01-11-2026 00:34:09,01-11-2026 00:34:12,"2,439s",PASSED
+"TestSession.run(""AUTH03"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:09,01-11-2026 00:34:12,"2,404s",PASSED
+,,,,,,,
+Test Cases/AUTH04_Password_kosong,Chrome 156.0.8078.79,Password is required,High,01-11-2026 00:34:12,01-11-2026 00:34:14,"2,327s",PASSED
+"TestSession.run(""AUTH04"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:12,01-11-2026 00:34:14,"2,280s",PASSED
+,,,,,,,
+Test Cases/AUTH05_Akun_terkunci,Chrome 156.0.8078.79,Pesan akun terkunci,High,01-11-2026 00:34:14,01-11-2026 00:34:16,"2,342s",PASSED
+"TestSession.run(""AUTH05"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:14,01-11-2026 00:34:16,"2,295s",PASSED
+,,,,,,,
+Test Cases/AUTH06_Logout,Chrome 156.0.8078.79,Kembali ke login; URL inventory langsung ditolak,High,01-11-2026 00:34:16,01-11-2026 00:34:20,"3,492s",PASSED
+"TestSession.run(""AUTH06"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:16,01-11-2026 00:34:20,"3,429s",PASSED
+,,,,,,,
+Test Cases/CAT01_Katalog_produk,Chrome 156.0.8078.79,Enam produk; enam harga positif; enam tombol tambah,High,01-11-2026 00:34:20,01-11-2026 00:34:23,"2,826s",PASSED
+"TestSession.run(""CAT01"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:20,01-11-2026 00:34:23,"2,721s",PASSED
+,,,,,,,
+Test Cases/CAT02_Detail_produk,Chrome 156.0.8078.79,"Nama, harga $29.99 dan deskripsi tersedia; kembali berhasil",High,01-11-2026 00:34:23,01-11-2026 00:34:25,"2,781s",PASSED
+"TestSession.run(""CAT02"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:23,01-11-2026 00:34:25,"2,709s",PASSED
+,,,,,,,
+Test Cases/CAT03_Urut_nama_A_Z,Chrome 156.0.8078.79,Seluruh daftar mengikuti urutan yang dipilih,Medium,01-11-2026 00:34:25,01-11-2026 00:34:28,"2,619s",PASSED
+"TestSession.run(""CAT03"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:25,01-11-2026 00:34:28,"2,559s",PASSED
+,,,,,,,
+Test Cases/CAT04_Urut_nama_Z_A,Chrome 156.0.8078.79,Seluruh daftar mengikuti urutan yang dipilih,Medium,01-11-2026 00:34:28,01-11-2026 00:34:31,"2,622s",PASSED
+"TestSession.run(""CAT04"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:28,01-11-2026 00:34:31,"2,574s",PASSED
+,,,,,,,
+Test Cases/CAT05_Urut_harga_rendah_tinggi,Chrome 156.0.8078.79,Seluruh daftar mengikuti urutan yang dipilih,Medium,01-11-2026 00:34:31,01-11-2026 00:34:33,"2,475s",PASSED
+"TestSession.run(""CAT05"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:31,01-11-2026 00:34:33,"2,434s",PASSED
+,,,,,,,
+Test Cases/CAT06_Urut_harga_tinggi_rendah,Chrome 156.0.8078.79,Seluruh daftar mengikuti urutan yang dipilih,Medium,01-11-2026 00:34:33,01-11-2026 00:34:36,"2,543s",PASSED
+"TestSession.run(""CAT06"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:33,01-11-2026 00:34:36,"2,494s",PASSED
+,,,,,,,
+Test Cases/CART01_Tambah_satu_produk,Chrome 156.0.8078.79,Badge 1; tombol Remove; isi cart dan harga sesuai,High,01-11-2026 00:34:36,01-11-2026 00:35:08,"32,789s",PASSED
+"TestSession.run(""CART01"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:34:36,01-11-2026 00:35:08,"32,724s",PASSED
+,,,,,,,
+Test Cases/CART02_Tambah_dua_produk,Chrome 156.0.8078.79,Badge 2; dua item yang benar,High,01-11-2026 00:35:08,01-11-2026 00:35:11,"2,662s",PASSED
+"TestSession.run(""CART02"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:08,01-11-2026 00:35:11,"2,604s",PASSED
+,,,,,,,
+Test Cases/CART03_Hapus_dari_katalog,Chrome 156.0.8078.79,Badge hilang; tombol Add tersedia; cart kosong,High,01-11-2026 00:35:11,01-11-2026 00:35:14,"2,619s",PASSED
+"TestSession.run(""CART03"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:11,01-11-2026 00:35:14,"2,567s",PASSED
+,,,,,,,
+Test Cases/CART04_Hapus_dari_cart,Chrome 156.0.8078.79,Cart kosong dan badge hilang,High,01-11-2026 00:35:14,01-11-2026 00:35:16,"2,535s",PASSED
+"TestSession.run(""CART04"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:14,01-11-2026 00:35:16,"2,485s",PASSED
+,,,,,,,
+Test Cases/CART05_Cart_bertahan_setelah_refresh,Chrome 156.0.8078.79,Badge dan item bertahan; kembali ke katalog,High,01-11-2026 00:35:16,01-11-2026 00:35:19,"2,747s",PASSED
+"TestSession.run(""CART05"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:16,01-11-2026 00:35:19,"2,693s",PASSED
+,,,,,,,
+Test Cases/CHK01_Nama_depan_wajib,Chrome 156.0.8078.79,Error: First Name is required; tetap di formulir,High,01-11-2026 00:35:19,01-11-2026 00:35:22,"3,121s",PASSED
+"TestSession.run(""CHK01"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:19,01-11-2026 00:35:22,"3,052s",PASSED
+,,,,,,,
+Test Cases/CHK02_Nama_belakang_wajib,Chrome 156.0.8078.79,Error: Last Name is required; tetap di formulir,High,01-11-2026 00:35:22,01-11-2026 00:35:25,"3,160s",PASSED
+"TestSession.run(""CHK02"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:22,01-11-2026 00:35:25,"3,099s",PASSED
+,,,,,,,
+Test Cases/CHK03_Kode_pos_wajib,Chrome 156.0.8078.79,Error: Postal Code is required; tetap di formulir,High,01-11-2026 00:35:25,01-11-2026 00:35:28,"3,124s",PASSED
+"TestSession.run(""CHK03"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:25,01-11-2026 00:35:28,"3,073s",PASSED
+,,,,,,,
+Test Cases/CHK04_Ringkasan_dan_total_dua_produk,Chrome 156.0.8078.79,Dua item sesuai; subtotal 39.98; pajak 3.20; total 43.18,High,01-11-2026 00:35:28,01-11-2026 00:36:02,"33,594s",PASSED
+"TestSession.run(""CHK04"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:35:28,01-11-2026 00:36:02,"33,540s",PASSED
+,,,,,,,
+Test Cases/CHK05_Selesaikan_pesanan,Chrome 156.0.8078.79,Konfirmasi sukses; kembali ke inventory; badge kosong,High,01-11-2026 00:36:02,01-11-2026 00:37:05,"1m - 3,387s",PASSED
+"TestSession.run(""CHK05"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:36:02,01-11-2026 00:37:05,"1m - 3,332s",PASSED
+,,,,,,,
+Test Cases/CHK06_Batal_formulir_checkout,Chrome 156.0.8078.79,Kembali ke cart; produk tetap ada,Medium,01-11-2026 00:37:05,01-11-2026 00:37:08,"2,669s",PASSED
+"TestSession.run(""CHK06"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:37:05,01-11-2026 00:37:08,"2,612s",PASSED
+,,,,,,,
+Test Cases/CHK07_Batal_ringkasan_checkout,Chrome 156.0.8078.79,Kembali ke inventory; badge tetap 1,Medium,01-11-2026 00:37:08,01-11-2026 00:37:12,"3,500s",PASSED
+"TestSession.run(""CHK07"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:37:08,01-11-2026 00:37:12,"3,447s",PASSED
+,,,,,,,
+Test Cases/NAV01_Reset_App_State,Chrome 156.0.8078.79,Badge hilang dan cart kosong,Medium,01-11-2026 00:37:12,01-11-2026 00:37:15,"3,247s",PASSED
+"TestSession.run(""NAV01"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:37:12,01-11-2026 00:37:15,"3,192s",PASSED
+,,,,,,,
+Test Cases/AUTH07_Akses_inventory_tanpa_login,Chrome 156.0.8078.79,Diarahkan ke login dengan pesan akses ditolak,High,01-11-2026 00:37:15,01-11-2026 00:37:17,"1,977s",PASSED
+"TestSession.run(""AUTH07"", { -> ... })",Chrome 156.0.8078.79,,,01-11-2026 00:37:15,01-11-2026 00:37:17,"1,942s",PASSED

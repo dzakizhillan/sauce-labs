@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Kembali ke inventory; badge tetap 1</description>
+   <name>CHK07_Batal_ringkasan_checkout</name>
+   <tag>Medium</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fae7f50f-7f84-45b7-89fc-0a9d3f9a44f1</testCaseGuid>
+</TestCaseEntity>

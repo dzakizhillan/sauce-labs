@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>Kembali ke login; URL inventory langsung ditolak</description><name>AUTH06_Logout</name><tag>High</tag><comment></comment><testCaseGuid>af016bd2-aaca-4aec-af0a-67df9537c2fb</testCaseGuid></TestCaseEntity>

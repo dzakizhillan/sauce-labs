@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="63.55" tests="5" failures="0" errors="1">
+   <testsuite name="Smoke" tests="5" failures="0" errors="1" time="63.55" skipped="0" timestamp="31-10-2026T18:58:59" hostname="G512LI - laptop-ik93a9sg.netbird.quantumteknologi.com" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\LATIHAN AUTOMATION QA\\SAUCE DEMO\\katalon-swag-labs\\Reports\\20261031_185854\\Smoke\\20261031_185855"/>
+         <property name="logFiles" value="E:\\LATIHAN AUTOMATION QA\\SAUCE DEMO\\katalon-swag-labs\\Reports\\20261031_185854\\Smoke\\20261031_185855\\execution0.log"/>
+         <property name="attachments" value="E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261031_185854\Smoke\20261031_185855/CHK05-failure.png"/>
+         <property name="hostName" value="G512LI - laptop-ik93a9sg.netbird.quantumteknologi.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 156.0.8078.79"/>
+         <property name="hostAddress" value="10.100.210.117"/>
+         <property name="sessionId" value="d2bf9df42a68575e0e0d82fdf910c345"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/AUTH01_Login_valid" time="4.986" classname="Test Cases/AUTH01_Login_valid" status="PASSED">
+         <system-out><![CDATA[31-10-2026T18:58:59 - [TEST_CASE][PASSED] - Test Cases/AUTH01_Login_valid: Test Cases/AUTH01_Login_valid
+
+31-10-2026T18:58:59 - [TEST_STEP][PASSED] - TestSession.run("AUTH01", { -> ... }): Browser is closed
+
+31-10-2026T18:59:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-10-2026T18:59:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-10-2026T18:59:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-10-2026T18:59:02 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+31-10-2026T18:59:03 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-10-2026T18:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+31-10-2026T18:59:03 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+31-10-2026T18:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+31-10-2026T18:59:03 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+31-10-2026T18:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+31-10-2026T18:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+31-10-2026T18:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+31-10-2026T18:59:04 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+31-10-2026T18:59:04 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+31-10-2026T18:59:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Common/label_title' are matched.
+
+31-10-2026T18:59:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AUTH06_Logout" time="3.632" classname="Test Cases/AUTH06_Logout" status="PASSED">
+         <system-out><![CDATA[31-10-2026T18:59:04 - [TEST_CASE][PASSED] - Test Cases/AUTH06_Logout: Test Cases/AUTH06_Logout
+
+31-10-2026T18:59:04 - [TEST_STEP][PASSED] - TestSession.run("AUTH06", { -> ... }): Browser is closed
+
+31-10-2026T18:59:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-10-2026T18:59:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-10-2026T18:59:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-10-2026T18:59:05 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+31-10-2026T18:59:06 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/button_menu' is visible
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/button_menu' is clickable
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation/button_menu' is clicked on
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Navigation/panel_menu
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Execute JavaScript '
+                const panel = arguments[0];
+                const rect = panel.getBoundingClientRect();
+                return panel.getAttribute('aria-hidden') !== 'true' && rect.width > 0 &&
+                    rect.left >= -0.5 && rect.right <= window.innerWidth + 0.5;
+            ' successfully
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Navigation/panel_menu
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Execute JavaScript '
+                const panel = arguments[0];
+                const rect = panel.getBoundingClientRect();
+                return panel.getAttribute('aria-hidden') !== 'true' && rect.width > 0 &&
+                    rect.left >= -0.5 && rect.right <= window.innerWidth + 0.5;
+            ' successfully
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/link_logout' is visible
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/link_logout' is clickable
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation/link_logout' is clicked on
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+31-10-2026T18:59:07 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+31-10-2026T18:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+31-10-2026T18:59:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/label_error' are matched.
+
+31-10-2026T18:59:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CAT01_Katalog_produk" time="2.946" classname="Test Cases/CAT01_Katalog_produk" status="PASSED">
+         <system-out><![CDATA[31-10-2026T18:59:08 - [TEST_CASE][PASSED] - Test Cases/CAT01_Katalog_produk: Test Cases/CAT01_Katalog_produk
+
+31-10-2026T18:59:08 - [TEST_STEP][PASSED] - TestSession.run("CAT01", { -> ... }): Browser is closed
+
+31-10-2026T18:59:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-10-2026T18:59:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-10-2026T18:59:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-10-2026T18:59:09 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_names
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Actual object '[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]' and expected object '[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]' are equal
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_prices
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+31-10-2026T18:59:10 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_prices
+
+31-10-2026T18:59:11 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+31-10-2026T18:59:11 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_addButtons
+
+31-10-2026T18:59:11 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+31-10-2026T18:59:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CART01_Tambah_satu_produk" time="2.843" classname="Test Cases/CART01_Tambah_satu_produk" status="PASSED">
+         <system-out><![CDATA[31-10-2026T18:59:11 - [TEST_CASE][PASSED] - Test Cases/CART01_Tambah_satu_produk: Test Cases/CART01_Tambah_satu_produk
+
+31-10-2026T18:59:11 - [TEST_STEP][PASSED] - TestSession.run("CART01", { -> ... }): Browser is closed
+
+31-10-2026T18:59:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-10-2026T18:59:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-10-2026T18:59:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-10-2026T18:59:12 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is visible
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is clickable
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory/button_addProduct' is clicked on
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Common/badge_cart' are matched.
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_removeProduct' is visible
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is visible
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is clickable
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/link_cart' is clicked on
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/cart.html'
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_productName' are matched.
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_productPrice' are matched.
+
+31-10-2026T18:59:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_quantity' are matched.
+
+31-10-2026T18:59:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHK05_Selesaikan_pesanan" time="48.892" classname="Test Cases/CHK05_Selesaikan_pesanan" status="ERROR">
+         <error type="ERROR" message="Test Cases/CHK05_Selesaikan_pesanan FAILED.&#xa;Reason:&#xa;org.openqa.selenium.TimeoutException: Expected condition failed: waiting for framework.core.Ui$_route_closure2@6be1f37f (tried for 15 second(s) with 500 milliseconds interval)&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'&#xa;Driver info: org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$xxMzyZG2&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.79, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\G512LI\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53469}, goog:processID: 35256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53469/devtoo..., se:cdpVersion: 156.0.8078.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29172/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: d2bf9df42a68575e0e0d82fdf910c345&#xa;	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)&#xa;	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)&#xa;	at framework.core.Ui.route(Ui.groovy:36)&#xa;	at framework.flows.CheckoutFlow.submitCustomer(CheckoutFlow.groovy:19)&#xa;	at Script$_run_closure1.doCall(Script.groovy:15)&#xa;	at Script$_run_closure1.doCall(Script.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at framework.core.TestSession.run(TestSession.groovy:17)&#xa;	at Script.run(Script.groovy:12)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1793447935984.run(TempTestSuite1793447935984.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[31-10-2026T18:59:14 - [TEST_CASE][ERROR] - Test Cases/CHK05_Selesaikan_pesanan: Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for framework.core.Ui$_route_closure2@6be1f37f (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$xxMzyZG2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.79, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\G512LI\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53469}, goog:processID: 35256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53469/devtoo..., se:cdpVersion: 156.0.8078.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29172/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2bf9df42a68575e0e0d82fdf910c345
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at framework.core.Ui.route(Ui.groovy:36)
+	at framework.flows.CheckoutFlow.submitCustomer(CheckoutFlow.groovy:19)
+	at Script$_run_closure1.doCall(Script.groovy:15)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:17)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793447935984.run(TempTestSuite1793447935984.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+31-10-2026T18:59:14 - [TEST_STEP][ERROR] - TestSession.run("CHK05", { -> ... }): Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for framework.core.Ui$_route_closure2@6be1f37f (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$xxMzyZG2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.79, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\G512LI\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53469}, goog:processID: 35256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53469/devtoo..., se:cdpVersion: 156.0.8078.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29172/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2bf9df42a68575e0e0d82fdf910c345
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at framework.core.Ui.route(Ui.groovy:36)
+	at framework.flows.CheckoutFlow.submitCustomer(CheckoutFlow.groovy:19)
+	at Script$_run_closure1.doCall(Script.groovy:15)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:17)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793447935984.run(TempTestSuite1793447935984.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+31-10-2026T18:59:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-10-2026T18:59:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-10-2026T18:59:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-10-2026T18:59:15 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+31-10-2026T18:59:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is visible
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is clickable
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory/button_addProduct' is clicked on
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is visible
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is clickable
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/link_cart' is clicked on
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/cart.html'
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/button_checkout' is visible
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/button_checkout' is clickable
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/button_checkout' is clicked on
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-step-one.html'
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/checkout-step-one.html' and expected text 'https://www.saucedemo.com/checkout-step-one.html' are matched 
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_firstName' is visible
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/Checkout/Information/input_firstName'
+
+31-10-2026T18:59:16 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_lastName' is visible
+
+31-10-2026T18:59:17 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/Checkout/Information/input_lastName'
+
+31-10-2026T18:59:17 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_postalCode' is visible
+
+31-10-2026T18:59:17 - [MESSAGE][PASSED] - Text '12190' is set on object 'Object Repository/Checkout/Information/input_postalCode'
+
+31-10-2026T18:59:17 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/button_continue' is visible
+
+31-10-2026T18:59:17 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/button_continue' is clickable
+
+31-10-2026T18:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Information/button_continue' is clicked on
+
+31-10-2026T19:00:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261031_185854\Smoke\20261031_185855/CHK05-failure.png]]
+
+31-10-2026T19:00:02 - [MESSAGE][PASSED] - Browser is closed
+
+31-10-2026T19:00:02 - [MESSAGE][ERROR] - Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for framework.core.Ui$_route_closure2@6be1f37f (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$xxMzyZG2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.79, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\G512LI\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53469}, goog:processID: 35256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53469/devtoo..., se:cdpVersion: 156.0.8078.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29172/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2bf9df42a68575e0e0d82fdf910c345
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at framework.core.Ui.route(Ui.groovy:36)
+	at framework.flows.CheckoutFlow.submitCustomer(CheckoutFlow.groovy:19)
+	at Script$_run_closure1.doCall(Script.groovy:15)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:17)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793447935984.run(TempTestSuite1793447935984.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[31-10-2026T18:59:14 - [TEST_CASE][ERROR] - Test Cases/CHK05_Selesaikan_pesanan: Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for framework.core.Ui$_route_closure2@6be1f37f (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$xxMzyZG2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.79, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\G512LI\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53469}, goog:processID: 35256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53469/devtoo..., se:cdpVersion: 156.0.8078.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29172/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2bf9df42a68575e0e0d82fdf910c345
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at framework.core.Ui.route(Ui.groovy:36)
+	at framework.flows.CheckoutFlow.submitCustomer(CheckoutFlow.groovy:19)
+	at Script$_run_closure1.doCall(Script.groovy:15)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:17)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793447935984.run(TempTestSuite1793447935984.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-10-2026T18:58:59 - [TEST_SUITE][ERROR] - Smoke: Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for framework.core.Ui$_route_closure2@6be1f37f (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$xxMzyZG2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.79, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\G512LI\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53469}, goog:processID: 35256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53469/devtoo..., se:cdpVersion: 156.0.8078.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29172/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2bf9df42a68575e0e0d82fdf910c345
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at framework.core.Ui.route(Ui.groovy:36)
+	at framework.flows.CheckoutFlow.submitCustomer(CheckoutFlow.groovy:19)
+	at Script$_run_closure1.doCall(Script.groovy:15)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:17)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793447935984.run(TempTestSuite1793447935984.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[31-10-2026T18:58:59 - [TEST_SUITE][ERROR] - Smoke: Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for framework.core.Ui$_route_closure2@6be1f37f (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.14'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver$ByteBuddy$xxMzyZG2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 156.0.8078.79, chrome: {chromedriverVersion: 156.0.8078.80 (fb096c0011f9..., userDataDir: C:\Users\G512LI\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53469}, goog:processID: 35256, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53469/devtoo..., se:cdpVersion: 156.0.8078.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29172/sessio..., webauthn:extension:cmtgKey: true, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d2bf9df42a68575e0e0d82fdf910c345
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at framework.core.Ui.route(Ui.groovy:36)
+	at framework.flows.CheckoutFlow.submitCustomer(CheckoutFlow.groovy:19)
+	at Script$_run_closure1.doCall(Script.groovy:15)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:17)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793447935984.run(TempTestSuite1793447935984.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity><description>Error: Postal Code is required; tetap di formulir</description><name>CHK03_Kode_pos_wajib</name><tag>High</tag><comment></comment><testCaseGuid>241c100a-a308-423a-84ae-46d3383137cf</testCaseGuid></TestCaseEntity>

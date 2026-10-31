@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="106.057" tests="5" failures="0" errors="3">
+   <testsuite name="Smoke" tests="5" failures="0" errors="3" time="106.057" skipped="0" timestamp="01-11-2026T00:15:33" hostname="G512LI - laptop-ik93a9sg.netbird.quantumteknologi.com" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\LATIHAN AUTOMATION QA\\SAUCE DEMO\\katalon-swag-labs\\Reports\\20261101_001529\\Smoke\\20261101_001530"/>
+         <property name="logFiles" value="E:\\LATIHAN AUTOMATION QA\\SAUCE DEMO\\katalon-swag-labs\\Reports\\20261101_001529\\Smoke\\20261101_001530\\execution0.log"/>
+         <property name="attachments" value="E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261101_001529\Smoke\20261101_001530/AUTH01-failure.png, E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261101_001529\Smoke\20261101_001530/CART01-failure.png, E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261101_001529\Smoke\20261101_001530/CHK05-failure.png"/>
+         <property name="hostName" value="G512LI - laptop-ik93a9sg.netbird.quantumteknologi.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 156.0.8078.79"/>
+         <property name="hostAddress" value="10.100.210.117"/>
+         <property name="sessionId" value="e2974374200b0a77463c8425424af0e2"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/AUTH01_Login_valid" time="34.027" classname="Test Cases/AUTH01_Login_valid" status="ERROR">
+         <error type="ERROR" message="Test Cases/AUTH01_Login_valid FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [AUTH01-login-verified]&#xa;	at Script$_run_closure1.doCall(Script.groovy:10)&#xa;	at Script$_run_closure1.doCall(Script.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at framework.core.TestSession.run(TestSession.groovy:23)&#xa;	at Script.run(Script.groovy:7)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[01-11-2026T00:15:33 - [TEST_CASE][ERROR] - Test Cases/AUTH01_Login_valid: Test Cases/AUTH01_Login_valid FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [AUTH01-login-verified]
+	at Script$_run_closure1.doCall(Script.groovy:10)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+01-11-2026T00:15:33 - [TEST_STEP][ERROR] - TestSession.run("AUTH01", { -> ... }): Test Cases/AUTH01_Login_valid FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [AUTH01-login-verified]
+	at Script$_run_closure1.doCall(Script.groovy:10)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+01-11-2026T00:15:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:15:33 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:15:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:15:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:15:35 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:15:36 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:15:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Common/label_title' are matched.
+
+01-11-2026T00:16:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261101_001529\Smoke\20261101_001530/AUTH01-failure.png]]
+
+01-11-2026T00:16:07 - [MESSAGE][PASSED] - Browser is closed
+
+01-11-2026T00:16:07 - [MESSAGE][ERROR] - Test Cases/AUTH01_Login_valid FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [AUTH01-login-verified]
+	at Script$_run_closure1.doCall(Script.groovy:10)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[01-11-2026T00:15:33 - [TEST_CASE][ERROR] - Test Cases/AUTH01_Login_valid: Test Cases/AUTH01_Login_valid FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [AUTH01-login-verified]
+	at Script$_run_closure1.doCall(Script.groovy:10)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AUTH06_Logout" time="3.362" classname="Test Cases/AUTH06_Logout" status="PASSED">
+         <system-out><![CDATA[01-11-2026T00:16:07 - [TEST_CASE][PASSED] - Test Cases/AUTH06_Logout: Test Cases/AUTH06_Logout
+
+01-11-2026T00:16:07 - [TEST_STEP][PASSED] - TestSession.run("AUTH06", { -> ... }): Browser is closed
+
+01-11-2026T00:16:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:16:07 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:16:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:16:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:16:08 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/button_menu' is visible
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/button_menu' is clickable
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation/button_menu' is clicked on
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Navigation/panel_menu
+
+01-11-2026T00:16:09 - [MESSAGE][PASSED] - Execute JavaScript '
+                const panel = arguments[0];
+                const rect = panel.getBoundingClientRect();
+                return panel.getAttribute('aria-hidden') !== 'true' && rect.width > 0 &&
+                    rect.left >= -0.5 && rect.right <= window.innerWidth + 0.5;
+            ' successfully
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Navigation/panel_menu
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Execute JavaScript '
+                const panel = arguments[0];
+                const rect = panel.getBoundingClientRect();
+                return panel.getAttribute('aria-hidden') !== 'true' && rect.width > 0 &&
+                    rect.left >= -0.5 && rect.right <= window.innerWidth + 0.5;
+            ' successfully
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/link_logout' is visible
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/link_logout' is clickable
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation/link_logout' is clicked on
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/label_error' are matched.
+
+01-11-2026T00:16:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CAT01_Katalog_produk" time="2.616" classname="Test Cases/CAT01_Katalog_produk" status="PASSED">
+         <system-out><![CDATA[01-11-2026T00:16:10 - [TEST_CASE][PASSED] - Test Cases/CAT01_Katalog_produk: Test Cases/CAT01_Katalog_produk
+
+01-11-2026T00:16:10 - [TEST_STEP][PASSED] - TestSession.run("CAT01", { -> ... }): Browser is closed
+
+01-11-2026T00:16:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:16:10 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:16:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:16:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:16:11 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_names
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Actual object '[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]' and expected object '[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]' are equal
+
+01-11-2026T00:16:12 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_prices
+
+01-11-2026T00:16:13 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+01-11-2026T00:16:13 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_prices
+
+01-11-2026T00:16:13 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+01-11-2026T00:16:13 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_addButtons
+
+01-11-2026T00:16:13 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+01-11-2026T00:16:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CART01_Tambah_satu_produk" time="32.697" classname="Test Cases/CART01_Tambah_satu_produk" status="ERROR">
+         <error type="ERROR" message="Test Cases/CART01_Tambah_satu_produk FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CART01-cart-verified]&#xa;	at Script$_run_closure1.doCall(Script.groovy:20)&#xa;	at Script$_run_closure1.doCall(Script.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at framework.core.TestSession.run(TestSession.groovy:23)&#xa;	at Script.run(Script.groovy:11)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[01-11-2026T00:16:13 - [TEST_CASE][ERROR] - Test Cases/CART01_Tambah_satu_produk: Test Cases/CART01_Tambah_satu_produk FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CART01-cart-verified]
+	at Script$_run_closure1.doCall(Script.groovy:20)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+01-11-2026T00:16:13 - [TEST_STEP][ERROR] - TestSession.run("CART01", { -> ... }): Test Cases/CART01_Tambah_satu_produk FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CART01-cart-verified]
+	at Script$_run_closure1.doCall(Script.groovy:20)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+01-11-2026T00:16:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:16:13 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:16:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:16:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:16:14 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is visible
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is clickable
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory/button_addProduct' is clicked on
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Common/badge_cart' are matched.
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_removeProduct' is visible
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is visible
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is clickable
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/link_cart' is clicked on
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/cart.html'
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_productName' are matched.
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_productPrice' are matched.
+
+01-11-2026T00:16:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_quantity' are matched.
+
+01-11-2026T00:16:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261101_001529\Smoke\20261101_001530/CART01-failure.png]]
+
+01-11-2026T00:16:46 - [MESSAGE][PASSED] - Browser is closed
+
+01-11-2026T00:16:46 - [MESSAGE][ERROR] - Test Cases/CART01_Tambah_satu_produk FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CART01-cart-verified]
+	at Script$_run_closure1.doCall(Script.groovy:20)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[01-11-2026T00:16:13 - [TEST_CASE][ERROR] - Test Cases/CART01_Tambah_satu_produk: Test Cases/CART01_Tambah_satu_produk FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CART01-cart-verified]
+	at Script$_run_closure1.doCall(Script.groovy:20)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:11)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHK05_Selesaikan_pesanan" time="33.157" classname="Test Cases/CHK05_Selesaikan_pesanan" status="ERROR">
+         <error type="ERROR" message="Test Cases/CHK05_Selesaikan_pesanan FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CHK05-checkout-overview]&#xa;	at Script$_run_closure1.doCall(Script.groovy:17)&#xa;	at Script$_run_closure1.doCall(Script.groovy)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at framework.core.TestSession.run(TestSession.groovy:23)&#xa;	at Script.run(Script.groovy:12)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[01-11-2026T00:16:46 - [TEST_CASE][ERROR] - Test Cases/CHK05_Selesaikan_pesanan: Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CHK05-checkout-overview]
+	at Script$_run_closure1.doCall(Script.groovy:17)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+01-11-2026T00:16:46 - [TEST_STEP][ERROR] - TestSession.run("CHK05", { -> ... }): Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CHK05-checkout-overview]
+	at Script$_run_closure1.doCall(Script.groovy:17)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+01-11-2026T00:16:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:16:46 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:16:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:16:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:16:46 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:16:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:16:47 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:16:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is clickable
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory/button_addProduct' is clicked on
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is clickable
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/link_cart' is clicked on
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/cart.html'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/button_checkout' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/button_checkout' is clickable
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/button_checkout' is clicked on
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-step-one.html'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/checkout-step-one.html' and expected text 'https://www.saucedemo.com/checkout-step-one.html' are matched 
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_firstName' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/Checkout/Information/input_firstName'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_lastName' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/Checkout/Information/input_lastName'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_postalCode' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Text '12190' is set on object 'Object Repository/Checkout/Information/input_postalCode'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/button_continue' is visible
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/button_continue' is clickable
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Information/button_continue' is clicked on
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-step-two.html'
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/checkout-step-two.html' and expected text 'https://www.saucedemo.com/checkout-step-two.html' are matched 
+
+01-11-2026T00:16:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Common/label_title' are matched.
+
+01-11-2026T00:17:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs\Reports\20261101_001529\Smoke\20261101_001530/CHK05-failure.png]]
+
+01-11-2026T00:17:19 - [MESSAGE][PASSED] - Browser is closed
+
+01-11-2026T00:17:19 - [MESSAGE][ERROR] - Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CHK05-checkout-overview]
+	at Script$_run_closure1.doCall(Script.groovy:17)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[01-11-2026T00:16:46 - [TEST_CASE][ERROR] - Test Cases/CHK05_Selesaikan_pesanan: Test Cases/CHK05_Selesaikan_pesanan FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [CHK05-checkout-overview]
+	at Script$_run_closure1.doCall(Script.groovy:17)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-11-2026T00:15:33 - [TEST_SUITE][ERROR] - Smoke: Test Cases/AUTH01_Login_valid FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [AUTH01-login-verified]
+	at Script$_run_closure1.doCall(Script.groovy:10)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[01-11-2026T00:15:33 - [TEST_SUITE][ERROR] - Smoke: Test Cases/AUTH01_Login_valid FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static framework.core.TestSession.screenshot() is applicable for argument types: (String) values: [AUTH01-login-verified]
+	at Script$_run_closure1.doCall(Script.groovy:10)
+	at Script$_run_closure1.doCall(Script.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at framework.core.TestSession.run(TestSession.groovy:23)
+	at Script.run(Script.groovy:7)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1793466930755.run(TempTestSuite1793466930755.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

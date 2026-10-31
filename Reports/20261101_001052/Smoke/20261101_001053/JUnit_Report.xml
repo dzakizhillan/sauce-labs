@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Smoke" time="17.354" tests="5" failures="0" errors="0">
+   <testsuite name="Smoke" tests="5" failures="0" errors="0" time="17.354" skipped="0" timestamp="01-11-2026T00:10:55" hostname="G512LI - laptop-ik93a9sg.netbird.quantumteknologi.com" id="Test Suites/Smoke">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="E:\\LATIHAN AUTOMATION QA\\SAUCE DEMO\\katalon-swag-labs\\Reports\\20261101_001052\\Smoke\\20261101_001053"/>
+         <property name="logFiles" value="E:\\LATIHAN AUTOMATION QA\\SAUCE DEMO\\katalon-swag-labs\\Reports\\20261101_001052\\Smoke\\20261101_001053\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="G512LI - laptop-ik93a9sg.netbird.quantumteknologi.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.1.0"/>
+         <property name="browser" value="Chrome 156.0.8078.79"/>
+         <property name="hostAddress" value="10.100.210.117"/>
+         <property name="sessionId" value="c50396428acaddffa9437e50fc04aecb"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/AUTH01_Login_valid" time="4.496" classname="Test Cases/AUTH01_Login_valid" status="PASSED">
+         <system-out><![CDATA[01-11-2026T00:10:55 - [TEST_CASE][PASSED] - Test Cases/AUTH01_Login_valid: Test Cases/AUTH01_Login_valid
+
+01-11-2026T00:10:56 - [TEST_STEP][PASSED] - TestSession.run("AUTH01", { -> ... }): Browser is closed
+
+01-11-2026T00:10:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:10:56 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:10:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:10:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:10:58 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:10:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:11:00 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:11:00 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:11:00 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Common/label_title' are matched.
+
+01-11-2026T00:11:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AUTH06_Logout" time="3.755" classname="Test Cases/AUTH06_Logout" status="PASSED">
+         <system-out><![CDATA[01-11-2026T00:11:00 - [TEST_CASE][PASSED] - Test Cases/AUTH06_Logout: Test Cases/AUTH06_Logout
+
+01-11-2026T00:11:00 - [TEST_STEP][PASSED] - TestSession.run("AUTH06", { -> ... }): Browser is closed
+
+01-11-2026T00:11:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:11:00 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:11:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:11:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:11:01 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:11:02 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/button_menu' is visible
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/button_menu' is clickable
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation/button_menu' is clicked on
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Navigation/panel_menu
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Execute JavaScript '
+                const panel = arguments[0];
+                const rect = panel.getBoundingClientRect();
+                return panel.getAttribute('aria-hidden') !== 'true' && rect.width > 0 &&
+                    rect.left >= -0.5 && rect.right <= window.innerWidth + 0.5;
+            ' successfully
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Navigation/panel_menu
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Execute JavaScript '
+                const panel = arguments[0];
+                const rect = panel.getBoundingClientRect();
+                return panel.getAttribute('aria-hidden') !== 'true' && rect.width > 0 &&
+                    rect.left >= -0.5 && rect.right <= window.innerWidth + 0.5;
+            ' successfully
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/link_logout' is visible
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/Navigation/link_logout' is clickable
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Navigation/link_logout' is clicked on
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/inventory.html' successfully
+
+01-11-2026T00:11:03 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:11:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/label_error' are matched.
+
+01-11-2026T00:11:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CAT01_Katalog_produk" time="2.758" classname="Test Cases/CAT01_Katalog_produk" status="PASSED">
+         <system-out><![CDATA[01-11-2026T00:11:04 - [TEST_CASE][PASSED] - Test Cases/CAT01_Katalog_produk: Test Cases/CAT01_Katalog_produk
+
+01-11-2026T00:11:04 - [TEST_STEP][PASSED] - TestSession.run("CAT01", { -> ... }): Browser is closed
+
+01-11-2026T00:11:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:11:04 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:11:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:11:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:11:04 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_names
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Actual object '[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]' and expected object '[Sauce Labs Backpack, Sauce Labs Bike Light, Sauce Labs Bolt T-Shirt, Sauce Labs Fleece Jacket, Sauce Labs Onesie, Test.allTheThings() T-Shirt (Red)]' are equal
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_prices
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_prices
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Actual object 'true' and expected object 'true' are equal
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Inventory/list_addButtons
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+01-11-2026T00:11:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CART01_Tambah_satu_produk" time="2.712" classname="Test Cases/CART01_Tambah_satu_produk" status="PASSED">
+         <system-out><![CDATA[01-11-2026T00:11:06 - [TEST_CASE][PASSED] - Test Cases/CART01_Tambah_satu_produk: Test Cases/CART01_Tambah_satu_produk
+
+01-11-2026T00:11:07 - [TEST_STEP][PASSED] - TestSession.run("CART01", { -> ... }): Browser is closed
+
+01-11-2026T00:11:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:11:07 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:11:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:11:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:11:07 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:11:08 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:11:08 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:11:08 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:11:08 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is visible
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is clickable
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory/button_addProduct' is clicked on
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Common/badge_cart' are matched.
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_removeProduct' is visible
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is visible
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is clickable
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/link_cart' is clicked on
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/cart.html'
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_productName' are matched.
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_productPrice' are matched.
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Cart/label_quantity' are matched.
+
+01-11-2026T00:11:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CHK05_Selesaikan_pesanan" time="3.424" classname="Test Cases/CHK05_Selesaikan_pesanan" status="PASSED">
+         <system-out><![CDATA[01-11-2026T00:11:09 - [TEST_CASE][PASSED] - Test Cases/CHK05_Selesaikan_pesanan: Test Cases/CHK05_Selesaikan_pesanan
+
+01-11-2026T00:11:09 - [TEST_STEP][PASSED] - TestSession.run("CHK05", { -> ... }): Browser is closed
+
+01-11-2026T00:11:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-11-2026T00:11:09 - [MESSAGE][INFO] - User set preference: ['prefs', '{credentials_enable_service=false, profile.password_manager_enabled=false, profile.password_manager_leak_detection=false}']
+
+01-11-2026T00:11:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-11-2026T00:11:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-11-2026T00:11:10 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1366 and height = 768
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_username' is visible
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Login/input_username'
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/input_password' is visible
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Text 'secret_sauce' is set on object 'Object Repository/Login/input_password'
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is visible
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Login/button_login' is clickable
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/button_login' is clicked on
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is visible
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Inventory/button_addProduct' is clickable
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Inventory/button_addProduct' is clicked on
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is visible
+
+01-11-2026T00:11:11 - [MESSAGE][PASSED] - Object 'Object Repository/Common/link_cart' is clickable
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Common/link_cart' is clicked on
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/cart.html'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/cart.html' and expected text 'https://www.saucedemo.com/cart.html' are matched 
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/button_checkout' is visible
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Cart/button_checkout' is clickable
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Cart/button_checkout' is clicked on
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-step-one.html'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/checkout-step-one.html' and expected text 'https://www.saucedemo.com/checkout-step-one.html' are matched 
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_firstName' is visible
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Text 'QA' is set on object 'Object Repository/Checkout/Information/input_firstName'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_lastName' is visible
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Text 'Tester' is set on object 'Object Repository/Checkout/Information/input_lastName'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/input_postalCode' is visible
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Text '12190' is set on object 'Object Repository/Checkout/Information/input_postalCode'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/button_continue' is visible
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Information/button_continue' is clickable
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Information/button_continue' is clicked on
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-step-two.html'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/checkout-step-two.html' and expected text 'https://www.saucedemo.com/checkout-step-two.html' are matched 
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Overview/button_finish' is visible
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Overview/button_finish' is clickable
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Overview/button_finish' is clicked on
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/checkout-complete.html'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/checkout-complete.html' and expected text 'https://www.saucedemo.com/checkout-complete.html' are matched 
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Checkout/Complete/label_confirmation' are matched.
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Complete/button_backHome' is visible
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object 'Object Repository/Checkout/Complete/button_backHome' is clickable
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Checkout/Complete/button_backHome' is clicked on
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Current window's url is: 'https://www.saucedemo.com/inventory.html'
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Actual text 'https://www.saucedemo.com/inventory.html' and expected text 'https://www.saucedemo.com/inventory.html' are matched 
+
+01-11-2026T00:11:12 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Common/badge_cart' located by 'By.cssSelector: [data-test="shopping-cart-badge"]' is not present after '15' second(s)
+
+01-11-2026T00:11:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-11-2026T00:10:55 - [TEST_SUITE][PASSED] - Smoke: Test Cases/CHK05_Selesaikan_pesanan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
