@@ -2,14 +2,39 @@
 
 Framework **Page Object Model (POM)** dengan native **Object Repository Katalon**, reusable components, test data terpusat, dan test case yang berisi skenario serta assertion. Target: Web Desktop https://www.saucedemo.com/.
 
-## Cara menjalankan
+## Cara Menjalankan Pengujian (Getting Started)
 
-1. Hentikan run lama. Tutup lalu buka kembali project untuk membuang referensi helper lama dan mengompilasi Keywords/profile terbaru.
-2. Di Katalon pilih **File > Open Project**, pilih folder `E:\LATIHAN AUTOMATION QA\SAUCE DEMO\katalon-swag-labs`, lalu **Select Folder**.
-3. Tunggu build selesai. Pilih profile **default**. Tidak perlu menulis kode atau membuat ulang object.
-4. Buka **Test Suites > Smoke** dengan klik dua kali, lalu **Run > Chrome** (5 kasus).
-5. Setelah Smoke lulus, jalankan **Test Suites > Regression** (26 kasus).
-6. Buka **Reports** dan pilih timestamp run terbaru untuk hasil HTML/JUnit, log, serta screenshot kegagalan jika tersedia.
+Ikuti langkah-langkah di bawah ini untuk membuka dan mengeksekusi automation test suite pada local environment Anda:
+
+### 1. Prasyarat (Prerequisites)
+* **Katalon Studio**: Pastikan Anda menggunakan **Katalon Studio v10.1.1** atau versi terbaru yang kompatibel.
+* **Google Chrome**: Direkomendasikan menggunakan Google Chrome versi terbaru. 
+* **WebDriver**: Jika terjadi masalah ketidakcocokan browser, lakukan pembaruan driver melalui menu **Tools > Update WebDrivers > Chrome** di Katalon Studio.
+
+### 2. Mengimpor Project ke Katalon Studio
+1. Klon repositori ini ke direktori lokal Anda atau unduh sebagai file ZIP lalu ekstrak.
+2. Buka **Katalon Studio**.
+3. Pilih menu **File > Open Project** pada toolbar atas.
+4. Arahkan ke direktori folder project hasil klon (`katalon-swag-labs`), lalu klik **Select Folder**.
+5. Tunggu proses *build* dan pemuatan komponen selesai.
+
+### 3. Eksekusi Pengujian (Test Execution)
+Sebelum mengeksekusi, pastikan Profile yang aktif di pojok kanan atas adalah **default**. Pengujian dirancang menggunakan skenario *clean session* di mana browser akan otomatis terbuka dan tertutup di setiap *test case*.
+
+* **Smoke Test (Skala Kecil)**:
+  1. Buka folder **Test Suites > Smoke** di Tests Explorer.
+  2. Klik dua kali pada file suite tersebut.
+  3. Klik tombol **Run** (ikon panah hijau) dan pilih **Chrome**. Suite ini berisi 5 *test cases* utama.
+  
+* **Regression Test (Skala Penuh)**:
+  1. Buka folder **Test Suites > Regression**.
+  2. Klik dua kali pada file suite tersebut.
+  3. Klik tombol **Run** dan pilih **Chrome**. Suite ini berisi 26 *test cases* menyeluruh.
+
+### 4. Melakukan Review Laporan (Test Reports)
+* Setelah eksekusi selesai, laporan pengujian akan otomatis dibuat di folder **Reports**.
+* Anda dapat melihat ringkasan hasil, log eksekusi, serta *screenshot* otomatis pada langkah *checkpoint* maupun saat terjadi kegagalan (*failure screenshots*) langsung melalui Katalon Studio UI atau membuka berkas HTML yang digenerate di direktori lokal.
+
 
 Browser baru dibuka untuk setiap test case dan ditutup setelahnya. Test case juga bisa dijalankan satuan. Login Katalon menggunakan akun sendiri; jalur lokal melalui Studio UI. CLI/CI memakai Runtime Engine dengan aktivasi terpisah dan tidak diperlukan untuk tugas lokal ini.
 
